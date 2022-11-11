@@ -17,7 +17,7 @@ clean-targets:
     - "dbt_modules"
 
 models:
-  snowflake_workshop:
+  dbt_snowflake:
     staging:
       materialized: view
       snowflake_warehouse: pc_dbt_wh
